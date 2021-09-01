@@ -1,0 +1,10 @@
+<mat-grid-list cols="2" rowHeight="100%" [class.theme1]="theme == 1" [class.theme2]="theme == 2" [class.theme3]="theme == 3">
+  <mat-grid-tile>
+    <h1>calc</h1>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <h4>THEME</h4>
+    <p>123</p>
+    <mat-slider step="1" min="0" max="4" value="1" (input)="onInputChange($event)"></mat-slider>
+  </mat-grid-tile>
+</mat-grid-list>

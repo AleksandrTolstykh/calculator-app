@@ -1,0 +1,82 @@
+h1 {
+  padding-left: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+h4 {
+  padding-right: 5px;
+  text-align: right;
+  width: 100%;
+}
+
+p {
+  position: relative;
+  left: 63px;
+  bottom: 10px;
+  letter-spacing: 5px;
+}
+
+mat-slider {
+  margin-right: 20px;
+}
+
+.mat-slider-horizontal {
+  min-width: 75px;
+  height: 42px;
+}
+
+::ng-deep {
+  .mat-slider-wrapper,
+  .mat-slider-track-fill,
+  .mat-slider-track-wrapper,
+  .mat-slider-track-background {
+      height: 24px !important;
+  }
+
+  .mat-slider-track-wrapper {
+    border-radius: 15px !important;
+  }
+}
+
+.theme1 {
+  color: hsl(0, 0, 100%);
+  ::ng-deep {
+    .mat-slider-thumb {
+      background-color: hsl(6, 63%, 50%) !important;
+    }
+    .mat-slider-track-fill,
+    .mat-slider-track-wrapper,
+    .mat-slider-track-background {
+      background-color: hsl(223, 31%, 20%) !important;
+    }
+  }
+}
+
+.theme2 {
+  color: hsl(60, 10%, 19%);
+  ::ng-deep {
+    .mat-slider-thumb {
+      background-color: hsl(25, 98%, 40%) !important;
+    }
+    .mat-slider-track-fill,
+    .mat-slider-track-wrapper,
+    .mat-slider-track-background {
+      background-color: hsl(0, 5%, 81%) !important;
+    }
+  }
+}
+
+.theme3 {
+  color: hsl(52, 100%, 62%);
+  ::ng-deep {
+    .mat-slider-thumb {
+      background-color: hsl(176, 100%, 44%) !important;
+    }
+    .mat-slider-track-fill,
+    .mat-slider-track-wrapper,
+    .mat-slider-track-background {
+      background-color: hsl(268, 71%, 12%) !important;
+    }
+  }
+}

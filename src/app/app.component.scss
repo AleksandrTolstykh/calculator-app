@@ -1,0 +1,11 @@
+mat-grid-list {
+  margin: 3% 25% 3% 25%;
+  @media screen and (max-width: 768px) {
+    margin: 3% 3% 3% 3%;
+  }
+}
+
+.component {
+  height: 100%;
+  width: 100%;
+}

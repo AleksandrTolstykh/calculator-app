@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculator-app';
+  theme = 1;
+  result = "0";
+
+  changeTheme(event: any) {
+    this.theme = event;
+  }
+
+  updateResult(event: any) {
+    this.result = event;
+  }
 }

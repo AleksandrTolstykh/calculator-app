@@ -1,0 +1,74 @@
+mat-grid-list {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 15px;
+  font-family: "Spartan";
+  font-size: 32px;
+  font-weight: 700;
+  height: 75%;
+  width: 75%;
+}
+
+.reset-button, .calculate-button {
+  width: 90%;
+}
+
+.theme1 {
+  background-color: hsl(223, 31%, 20%);
+  button {
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0 4px 2px -2px hsl(28, 16%, 65%);
+    color: hsl(221, 14%, 31%);
+  }
+  .reset-button, .delete-button {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 4px 2px -2px hsl(224, 28%, 35%);
+    color: hsl(0, 0, 100%);
+  }
+  .calculate-button {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 4px 2px -2px hsl(6, 70%, 34%);
+    color: hsl(0, 0, 100%);
+  }
+}
+
+.theme2 {
+  background-color: hsl(0, 5%, 81%);
+  button {
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 0 4px 2px -2px hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+  }
+  .reset-button, .delete-button {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0 4px 2px -2px hsl(185, 58%, 25%);
+    color: hsl(0, 0, 100%);
+  }
+  .calculate-button {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0 4px 2px -2px hsl(25, 99%, 27%);
+    color: hsl(0, 0, 100%);
+  }
+}
+
+.theme3 {
+  background-color: hsl(268, 71%, 12%);
+  button {
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0 4px 2px -2px hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
+  }
+  .reset-button, .delete-button {
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0 4px 2px -2px hsl(285, 91%, 52%);
+    color: hsl(0, 0, 100%);
+  }
+  .calculate-button {
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0 4px 2px -2px hsl(177, 92%, 70%);
+    color: hsl(198, 20%, 13%);
+  }
+}

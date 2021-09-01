@@ -1,0 +1,11 @@
+<mat-grid-list cols="4" rowHeight="19%" [class.theme1]="theme == '1'" [class.theme2]="theme == '2'" [class.theme3]="theme == '3'">
+  <mat-grid-tile *ngFor="let button of buttons">
+    <button [class.delete-button]="button == 'DEL'" mat-button (click)="onClick($event)">{{button}}</button>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2">
+    <button class="reset-button" mat-button (click)="onReset($event)">RESET</button>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="2">
+    <button class="calculate-button" mat-button (click)="onCalculate($event)">=</button>
+  </mat-grid-tile>
+</mat-grid-list>
